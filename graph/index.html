@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Bar Graph</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Product Information</h2>
+  <form id="productForm">
+    <label for="productName">Product Name:</label>
+    <input type="text" id="productName" name="productName"><br><br>
+    <label for="productPrice">Price:</label>
+    <input type="number" id="productPrice" name="productPrice"><br><br>
+    <label for="productRating">Rating:</label>
+    <input type="number" id="productRating" name="productRating" min="1" max="5"><br><br>
+    <button type="submit">Add Product</button>
+  </form>
+
+  <h2>Price Bar Graph</h2>
+  <div id="priceGraph"></div>
+
+  <h2>Rating Bar Graph</h2>
+  <div id="ratingGraph"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
